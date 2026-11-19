@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Streamlit local secrets / cache if any
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
